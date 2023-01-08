@@ -62,16 +62,18 @@ H11.Lojas deveriam vender menos durante os feriados escolares
 
 ### 7.0 FEATURE SELECTION :Utilizei o algoritmo BORUTA para selecionar as variáveis mais significativas para o modelo 
 
-### 8.0 MACHINE LEARNING : Observei o desenvolvimento dos modelos:
- *Average Model
+### 8.0 MACHINE LEARNING : Após fazer a validação cruzada,obtive os resultados abaixo para cada modelo:
  
- *Linear Regression Model
- 
- *Linear Regression Regularized Model - Lasso
- 
- *Random Forest Regressor
- 
- *XGBoost Regressor
+ Model Name|	Mean Absolute Error|	Mean Absolute Percentage Error|	Root Mean Squared Error
+ ---------|--------------------|-------------------------------|-----------------------            
+ Linear Regression|	2081.73 +/- 295.63|	0.3 +/- 0.02|	2952.52 +/- 468.37
+	-----------------|-------------------|-------------|-------------------
+ Lasso|	2116.38 +/- 341.5|	0.29 +/- 0.01|	3057.75 +/- 504.26
+	-----|------------------|-------------|--------------------
+ Random Forest Regressor|	837.7 +/- 219.24|	0.12 +/- 0.02|	1256.59 +/- 320.28
+	-----------------------|-----------------|--------------|-------------------
+ XGBoost Regressor|	1030.28 +/- 167.19|	0.14 +/- 0.02|	1478.26 +/- 229.79
+------------------|-------------------|--------------|--------------------
 
 ### Após fazer a validação cruzada com 5  k-fold segui para a finalização do modelo com o XGBoost Regressor .
   
