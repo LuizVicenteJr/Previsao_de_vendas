@@ -73,7 +73,7 @@ H11.Lojas deveriam vender menos durante os feriados escolares
  Random Forest Regressor|837.7 +/- 219.24   |0.12 +/- 0.02                  |1256.59 +/- 320.28
  -----------------------|-----------------  |------------------------------ |-------------------
  XGBoost Regressor      |1030.28 +/- 167.19 |	0.14 +/- 0.02               |1478.26 +/- 229.79
- ---------------------- |-------------------|-------------------------------|-------------------
+ 
 
 ### Após fazer a validação cruzada com 5  k-fold segui para a finalização do modelo com o XGBoost Regressor .
   
