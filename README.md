@@ -71,8 +71,9 @@ H11.Lojas deveriam vender menos durante os feriados escolares
 
 ### Após fazer a validação cruzada com 5  k-fold segui para a finalização do modelo com o XGBoost Regressor .
   
-Model Name	            Mean Absolute Error	       Mean Absolute Percentage Error           Root Mean Squared Error
-XGBoost Regressor	:       |1030.28 +/-|             |167.19	0.14 +/- 0.02|	                  |1478.26 +/- 229.79|
+Model Name	        |    Mean Absolute Error	  |     Mean Absolute Percentage Error    |       Root Mean Squared Error
+------------------      -------------------         ----------------------------              -----------------------
+XGBoost Regressor	 |     |1030.28 +/-|        |     |167.19	0.14 +/- 0.02|	           |       |1478.26 +/- 229.79|
 
 
 ### 9.0 HyperParameter Fine Tuning : Procurei os melhores valores para cada parâmetro testado ,aplicando no modelo final :
@@ -88,7 +89,7 @@ param_tuned = {
  
  ### e obtendo o resultado de :
  Model Name	     |    Mean Absolute Error	  | Mean Absolute Percentage Error 	     |    Root Mean Squared Error
----------------- | ----------------------   |  ----------------------------------- |  ------------------------
+----------------  ----------------------     -----------------------------------   ------------------------
 XGBoost Regressor|    |758.838068|	         |          |0.114224|	                 |       |1086.500289|
 
 ### Business Performance: Após melhorar a performance do modelo,calculei o melhor e o pior cenário e a previsão de receita de cada loja.
