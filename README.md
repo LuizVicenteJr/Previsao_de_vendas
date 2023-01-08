@@ -73,7 +73,7 @@ H11.Lojas deveriam vender menos durante os feriados escolares
   
 Model Name	        |    Mean Absolute Error	 |    Mean Absolute Percentage Error|       Root Mean Squared Error
 ------------------ |    -------------------  |    ---------------------------   |      -----------------------
-XGBoost Regressor	 |       1030.28 +/-       |    167.19	0.14 +/- 0.02	         |         1478.26 +/- 229.79
+XGBoost Regressor	 |       1030.28 +/-167.19 |    	0.14 +/- 0.02	               |         1478.26 +/- 229.79
 
 
 ### 9.0 HyperParameter Fine Tuning : Procurei os melhores valores para cada parâmetro testado ,aplicando no modelo final :
