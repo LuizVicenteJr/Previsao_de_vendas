@@ -114,7 +114,5 @@ Cenários:
  
  2- Deploy do modelo para produção 
  
- 3- Com mais tempo é possível aperfeiçoar a sessão Feature Engineering, o que provavelmente resultaria na melhora do modelo .
-
 ---------------------------------------------------
  
