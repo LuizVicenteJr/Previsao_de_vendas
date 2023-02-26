@@ -101,12 +101,14 @@ XGBoost Regressor|    758.838068	          |          0.114224	                 
 ### Business Performance: Após melhorar a performance do modelo,calculei o melhor e o pior cenário e a previsão de receita de cada loja.
 
 
-Cenários:
-|predictions|	:   R$287,220,224.00
 
-|pior cenário|	:  R$286,370,792.50
-
+cenário     | Resultado financeiro
+------------|---------------------
+predictions |	 R$287,220,224.00
+------------|-----------------------
+pior cenário|	 R$286,370,792.50
+------------|-----------------------
 |melhor cenário|:	R$288,069,647.95
 
-------------------------------------------------
+
 
