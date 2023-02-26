@@ -109,10 +109,4 @@ Cenários:
 |melhor cenário|:	R$288,069,647.95
 
 ------------------------------------------------
-# Próximos passos :
- 1- O modelo pode se tornar mais eficiente em um computador mais robusto .
- 
- 2- Deploy do modelo para produção 
- 
----------------------------------------------------
- 
+
